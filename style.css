@@ -178,17 +178,25 @@ body.menuOpen{
 }
 
 .navBar {
+    width: 100%;
     border-bottom: 1px solid #e6e4e4;
+
     color: #e6e4e4;
+
+}
+
+.navContent{
+    width: 100%;
+    max-width: 1480px;
+    margin: 0;
+
+    padding: 0 40px;
+    min-height: 99px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    /* white-space: nowrap; */
-    
-    padding: 22px 40px;
-    border-radius: 10px;
 }
 
 .navLeft,
