@@ -148,8 +148,11 @@
     --defaultAnimationExitDuration: 200ms;
     --defaultAnimationEasing: cubic-bezier(0.25,0.1,0.25,1);
     --svcRoundedCorners: 3.3333%/5.298%;
-    --svcShadowFilter: drop-shadow(0px 4px 1px rgba(0,0,0,0.11)) drop-shadow(0px 0px 2px rgba(0,0,0,0.24))
+    --svcShadowFilter: drop-shadow(0px 4px 1px rgba(0,0,0,0.11)) drop-shadow(0px 0px 2px rgba(0,0,0,0.24));
+    --newFont: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
+
 *{
     box-sizing: border-box;
 }
@@ -205,9 +208,9 @@ body.menuOpen{
     outline: none;
 
     font-size: 14px;
-    font-weight: 700;
+    font-weight: bold;
     letter-spacing: 1.4px;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);
     cursor: pointer;
 
 }
@@ -225,7 +228,8 @@ body.menuOpen{
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 1.4px;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);
+
     cursor: pointer;
 
 }
@@ -243,7 +247,7 @@ body.menuOpen{
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 1.4px;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);
     cursor: pointer;
 
 }   
@@ -261,7 +265,7 @@ body.menuOpen{
 
     font-size: 14px;
     font-weight: normal;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);
     cursor: pointer;
 
 }
@@ -281,7 +285,7 @@ body.menuOpen{
     border-style: solid;
     font-size: 14px;
     font-weight: 600;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);
     cursor: pointer;
     padding: 7px 16px;
 
@@ -301,7 +305,7 @@ body.menuOpen{
     text-align: center;
     font-size: 14px;
     font-weight: 600;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);
     cursor: pointer;
     padding: 7px 16px;
 }
@@ -327,7 +331,7 @@ body.menuOpen{
     color: #ffffff;
     font-size: 19px;
     font-weight: 300;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);
     letter-spacing: 1.75;
 
 }
@@ -336,7 +340,7 @@ body.menuOpen{
     
 
     font-size: 19px;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);
     
 
     background-color: rgb(50, 70, 47); 
@@ -395,7 +399,7 @@ body.menuOpen{
     font-size: 24px;
     font-weight: 700;
     text-align: center;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);;
     margin: 0px 0px 24px;
 
 }
@@ -406,7 +410,7 @@ body.menuOpen{
     align-items: center;
 
     color: #ffffff;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);;
     font-size: 16px;
     font-weight: 700;   
     line-height: 1.75;
@@ -419,7 +423,7 @@ body.menuOpen{
 
     font-size: 16px;
     font-weight: 600;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);;
     font-style: normal;
 
     min-width: 35px;
@@ -483,7 +487,7 @@ body.menuOpen{
     font-size: 24px;
     font-weight: 700;
     text-align: center;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);;
     margin: 0px 0px 24px;
 
 }
@@ -494,7 +498,7 @@ body.menuOpen{
     align-items: center;
 
     color: #ffffff;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);;
     font-size: 16px;
     font-weight: 700;   
     line-height: 1.75;
@@ -507,7 +511,7 @@ body.menuOpen{
 
     font-size: 16px;
     font-weight: 600;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);;
     font-style: normal;
 
     min-width: 35px;
@@ -571,7 +575,7 @@ body.menuOpen{
     font-size: 24px;
     font-weight: 700;
     text-align: center;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);;
     margin: 0px 0px 24px;
 
 }
@@ -582,7 +586,7 @@ body.menuOpen{
     align-items: center;
 
     color: #ffffff;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);;
     font-size: 16px;
     font-weight: 700;   
     line-height: 1.75;
@@ -595,7 +599,7 @@ body.menuOpen{
 
     font-size: 16px;
     font-weight: 600;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);;
     font-style: normal;
 
     min-width: 35px;
@@ -659,7 +663,7 @@ body.menuOpen{
     font-size: 24px;
     font-weight: 700;
     text-align: center;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);;
     margin: 0px 0px 24px;
 
 }
@@ -670,7 +674,7 @@ body.menuOpen{
     align-items: center;
 
     color: #ffffff;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);;
     font-size: 16px;
     font-weight: 700;   
     line-height: 1.75;
@@ -683,7 +687,7 @@ body.menuOpen{
 
     font-size: 16px;
     font-weight: 600;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);;
     font-style: normal;
 
     min-width: 35px;
@@ -735,7 +739,7 @@ body.menuOpen{
     margin: 0px auto;
     padding: 0px 48px;
 
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);;
 
     font-weight: bold;
 
@@ -771,7 +775,7 @@ body.menuOpen{
     height: auto;
     color: #00000094;
     font-size: 16px;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);;
     font-weight: 700;
     text-decoration: none;
 }
@@ -787,7 +791,7 @@ body.menuOpen{
 
     font-size: 19px;
     margin: 0px 0px 24px;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);;
     font-weight: bold;
 
     text-align: left;
@@ -857,7 +861,7 @@ body.menuOpen{
     color: #000000DE;
     line-height: 24px;
     display: block;
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);;
     font-weight: bold;
     font-size: 16px;
 
@@ -876,7 +880,7 @@ body.menuOpen{
     letter-spacing: -0.16px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.58);
-    font-family: 'Freight Sans Pro', sans-serif;
+    font-family: var(--newFont);;
     padding-left: 40px;
 }
 
@@ -1058,7 +1062,7 @@ body.menuOpen{
         font-size: 19px;
         font-weight: bold;
         letter-spacing: 1.4px;
-        font-family: 'Freight Sans Pro', sans-serif;
+        font-family: var(--newFont);;
         line-height: 28.5px;
         cursor: pointer;
         color: #000000;
@@ -1092,7 +1096,7 @@ body.menuOpen{
         font-size: 14px;
         font-weight: bold;
         letter-spacing: 1.4px;
-        font-family: 'Freight Sans Pro', sans-serif;
+        font-family: var(--newFont);;
         cursor: pointer;
         color: #000000;
         
