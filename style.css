@@ -159,9 +159,9 @@
 
 .siteLimits{
     width: 100%;
-    max-width: 1440px;
+    max-width: 1480px;
     margin: 0 auto;
-
+    padding: 0px 20px;
 }
 
 html,
@@ -327,7 +327,7 @@ body.menuOpen{
 .startOrder {   
     background-color: #32462F;
     padding: 32px 0px;
-    margin: 0px 24px;
+    margin: 0px auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -372,11 +372,11 @@ body.menuOpen{
 
 .firstSegmentWImage{
     background-color:#006342;
-    width: calc(100% - 48px);
-    max-width: 1440px;
+    width: 100%;
+    max-width: 1480px;
     height:  420px;
     display: flex;
-    margin: 24px 24px 0px 24px;
+    margin: 24px 0px 0px 0px;
 }
 
 .firstSegmentImage{
@@ -460,11 +460,11 @@ body.menuOpen{
 
 .SecondSegmentWImage{
     background-color:#006342;
-    width: calc(100% - 48px);
-    max-width: 1440px;
+    width: 100%;
+    max-width: 1480px;
     height:  420px;
     display: flex;
-    margin: 24px 24px 0px 24px;
+    margin: 24px 0px 0px 0px;
 }
 
 .SecondSegmentImage{
@@ -548,11 +548,11 @@ body.menuOpen{
 
 .ThirdSegmentWImage{
     background-color:#006342;
-    width: calc(100% - 48px);
-    max-width: 1440px;
+    width: 100%;
+    max-width: 1480px;
     height:  420px;
     display: flex;
-    margin: 24px 24px 0px 24px;
+    margin: 24px 0px 0px 0px;
 }
 
 .ThirdSegmentImage{
@@ -636,11 +636,11 @@ body.menuOpen{
 
 .FourthSegmentWImage{
     background-color:#006342;
-    width: calc(100% - 48px);
-    max-width: 1440px;
+    width: 100%;
+    max-width: 1480px;
     height:  420px;
     display: flex;
-    margin: 24px 24px 24px 24px;
+    margin: 24px 0px 0px 0px;
 }
 
 .FourthSegmentImage{
